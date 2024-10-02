@@ -1,0 +1,12 @@
+{
+  "name": "Sleep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.4.13"
+  },
+  "scripts": {
+    "build:tailwind": "tailwind build -i src/input.css -o src/output.css --watch"
+  }
+}
