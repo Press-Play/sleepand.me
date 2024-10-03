@@ -8,6 +8,8 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-/*    @apply font-normal;*/
+  }
+  a {
+    @apply !no-underline;
   }
 }
